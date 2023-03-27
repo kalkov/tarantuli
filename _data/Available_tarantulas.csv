@@ -1,34 +1,51 @@
-вид,размер,цена лв/бр
-Acanthoscurria geniculata,4кожа,30
-Caribena versicolor,2кожа,30
-Caribena laeta,2кожа,40
-Chilobrachys fimbriatus,1см,50
-Chromatopelma cyaneopubescens,2кожа,60
-Ceratogyrus darlingi,5кожа,30
-Cyriopagopus lividus,2кожа,55
-Cyriopagopus sp. „Hati Hati” голям,"1,5-2cm",55
-Cyriopagopus sp. „Hati Hati” малък,2кожа,30
-Haplocosmia himalayana,3кожа,50
-Heteroscodra maculata,1кожа,20
-Hysterocrates gigas,2кожа,30
-Lasiodora parahybana,3кожа,20
-Monocentropus balfouri,3кожа,30
-Neoholothele incei,4кожа,30
-Nhandu chromatus,4кожа,30
-Orphnaecus philippinus,2кожа,30
-Pamphobeteus sp. „platyomma”,2см,120
-Poecilotheria formosa,2кожа,75
-Poecilotheria miranda,4кожа,65
-Poecilotheria ornata,2кожа,40
-Poecilotheria regalis,4кожа,25
-Poecilotheria striata,2кожа,35
-Poecilotheria subfusca,2кожа,70
-Poecilotheria vittata,4кожа,35
-Psalmopoeus cambridgei,4кожа,30
-Psalmopoeus irminia,3кожа,30
-Psalmopoeus pulcher,2кожа,30
-Pterinochilus lugardi,1кожа,35
-Pterinopelma sazimai,3кожа,25
-Stromatopelma calceatum,3кожа,45
-Tliltocatl albopilosus,3кожа,25
-Tliltocatl vagans,3кожа,30
+вид,размер,статус,цена лв/бр
+Acanthoscurria geniculata,4кожа,наличен,30
+Brachypelma albiceps,1кожа,наличен,50
+Brachypelma boehmei,1кожа,ограничена наличност,40
+Brachypelma emilia,5кожа,ограничена наличност,60
+Caribena laeta,2кожа,наличен,40
+Caribena versicolor,2кожа,наличен,30
+Ceratogyrus darlingi,5кожа,наличен,30
+Chaetopelma olivaceum,2кожа,ограничена наличност,40
+Chilobrachys fimbriatus,1см,ограничена наличност,50
+Chromatopelma cyaneopubescens,2кожа,наличен,60
+Cyriopagopus lividus,2кожа,наличен,55
+Cyriopagopus sp. 'Hati Hati',2кожа,наличен,30
+Gramostola pulchripes,1кожа,ограничена наличност,50
+Haplocosmia himalayana,3кожа,наличен,50
+Harpacita pulchripes,3кожа,наличен,40
+Heteroscordra maculata,2кожа,ограничена наличност,25
+Hysterocrates gigas,2кожа,ограничена наличност,30
+Lasiodora klugi,2кожа,ограничена наличност,25
+Lasiodora parahybana,3кожа,наличен,20
+Megaphobema robustum,3кожа,наличен,100
+Monocentropus balfouri,3кожа,наличен,30
+Neoholothele incei,4кожа,наличен,30
+Nhandu chromatus,4кожа,наличен,30
+Orphnaecus philippinus,2кожа,наличен,30
+Pamphobeteus sp. 'Machalla',1кожа,наличен,50
+Pamphobeteus sp. 'Platyomma',2см,ограничена наличност,120
+Phormictopus auratus,3кожа,наличен,50
+Phormingochilus sp. 'rufus',1-2кожи,ограничена наличност,50
+Poecilotheria formosa,2кожа,ограничена наличност,75
+Poecilotheria metallica,2-3кожи,наличен,100
+Poecilotheria miranda,4кожа,наличен,65
+Poecilotheria ornata,2кожа,ограничена наличност,40
+Poecilotheria regalis,4кожа,наличен,25
+Poecilotheria rufilata,1кожа,ограничена наличност,60
+Poecilotheria striata,2кожа,ограничена наличност,35
+Poecilotheria subfusca,2кожа,ограничена наличност,60
+Poecilotheria vittata,4кожа,наличен,35
+Psalmopoeus cambridgei,4кожа,наличен,30
+Psalmopoeus irminia,3кожа,наличен,30
+Psalmopoeus pulcher,2кожа,ограничена наличност,30
+Psalmopoeus victori,4кожа,наличен,100
+Pseudhapalopus sp. 'blue',1-2кожи,ограничена наличност,60
+Pterinochilus lugardi,1кожа,ограничена наличност,35
+Pterinochilus murinus 'Usumbara',2кожа,ограничена наличност,30
+Pterinopelma sazimai,3кожа,наличен,25
+Stromatopelma calceatum,3кожа,ограничена наличност,45
+Theraposa apophysis,3кожа,наличен,170
+Theraposa blondi,3кожа,наличен,170
+Tliltocatl albopilosus,3кожа,наличен,25
+Tliltocatl vagans,3кожа,наличен,30

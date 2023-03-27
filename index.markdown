@@ -12,13 +12,14 @@ categories: jekyll update
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
       {% endfor %}
-      <th>Информация</th>
+      <th>информация</th>
     </tr>
     {% endif %}
 
     <tr>
       <td> {{ row['вид'] }} </td>
       <td> {{ row['размер'] }} </td>
+      <td> {{ row['статус'] }} </td>
       <td> {{ row['цена лв/бр'] }} </td>
       <td><a href="https://www.google.com/search?q={{ row['вид'] }}" target="_blank">Google</a></td>
     </tr>
