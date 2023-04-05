@@ -5,6 +5,10 @@ date:   2023-03-07 14:49:06 +0200
 categories: jekyll update
 ---
 
+{% if jekyll.environment == 'production' %}
+{% include ga.html %}
+{% endif %}
+
 <table>
   {% for row in site.data.Available_tarantulas %}
     {% if forloop.first %}
