@@ -1,27 +1,20 @@
-FROM ruby:3.1-slim-bullseye as jekyll
+FROM ruby:3.3-slim-trixie AS jekyll
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
+    libssl-dev \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-# used in the jekyll-server image, which is FROM this image
+WORKDIR /site
+COPY Gemfile Gemfile.lock ./
+RUN bundle install --jobs 4
 COPY docker-entrypoint.sh /usr/local/bin/
 
-RUN gem update --system && gem install jekyll && gem cleanup
-
 EXPOSE 4000
+ENTRYPOINT ["bundle", "exec", "jekyll"]
+CMD ["--help"]
 
-WORKDIR /site
-
-ENTRYPOINT [ "jekyll" ]
-
-CMD [ "--help" ]
-
-# build from the image we just built with different metadata
-FROM jekyll as jekyll-serve
-
-# on every container start, check if Gemfile exists and warn if it's missing
-ENTRYPOINT [ "docker-entrypoint.sh" ]
-
-CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
+FROM jekyll AS jekyll-serve
+ENTRYPOINT ["docker-entrypoint.sh"]
+CMD ["bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000"]
